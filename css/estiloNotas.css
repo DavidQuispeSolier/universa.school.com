@@ -1,0 +1,27 @@
+button{
+    background-color: orange;
+    color: black; font-family: sans-serif;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+.x {
+    font-size: 20px; font-family: sans-serif;
+    color: blue;
+    width: 300px;
+    border: 5px solid orange;
+    padding: 50px;
+    margin: 0 auto; text-align: center;
+}
+body{
+    background:rgb(153, 224, 226);
+}
+p{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: fantasy;
+}
+a{
+    font-size: 1.2em;
+}

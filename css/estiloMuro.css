@@ -1,0 +1,81 @@
+p{
+    text-align: center;
+}
+body{
+    background: rgb(70, 108, 221);
+}
+img{
+    border: 6px solid #252247;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: rgb(180, 233, 95);
+    color: black; font-family: sans-serif;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    width: 200px;
+    border: 2px solid #252247;
+}    
+#mate{
+    font-size: 1.5em;
+    color:rgb(242, 242, 248);
+    font-family: fantasy;
+    margin-left: 400px;
+    /* position: absolute;
+    left: 390px; */
+}
+#fis{
+    font-size: 1.5em;
+    color:rgb(238, 139, 57);
+    font-family: fantasy;
+    margin-left: 810px;
+    /* position: absolute;
+    left: 810px; */
+}
+#quim{
+    font-size: 1.5em;
+    color:rgb(20, 20, 37);
+    font-family: fantasy;
+    margin-left: 1000px;
+    /* position: absolute;
+    left: 1000px; */
+}
+#psico{
+    font-size: 1.5em;
+    color:rgb(128, 44, 131);
+    font-family: fantasy;
+    margin-left: 1230px;
+    /* position: absolute;
+    left: 1230px; */
+}
+#lit{
+    font-size: 1.5em;
+    color:rgb(49, 197, 140);
+    font-family: fantasy;
+    margin-left: 1420px;
+    /* position: absolute;
+    left: 1420px; */
+}
+#len{
+    font-size: 1.5em;
+    color:rgb(225, 235, 97);
+    font-family: fantasy;
+    margin-left: 620px;
+    /* position: absolute;
+    left: 620px; */
+}
+.izq{
+    position: absolute;
+    margin-left: 35px;
+   
+    top: 150px;
+}
+.der{
+    position: absolute;
+    margin-left: 1610px;
+    top: 150px;
+}

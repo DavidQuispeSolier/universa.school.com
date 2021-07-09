@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registrodenotas</title>
+	<link rel="stylesheet" href="css/estiloNotas.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>
+                <img src="img/img0.jpg" class="d-block w-100" height="100px"><br><br>
+            </p>
+        </header>
+        <p>
+            <strong>Dar click en 'Registro de notas' para obtener el promedio de un estudiante</strong><br><br>
+            <button onclick="alerta()"> REGISTRO DE NOTAS </button><br>
+            <div class="x">
+                <div id="name">Estudiante</div><br>
+                <div id="result">Aprobado/Desaprobado</div><br>
+                <div id="notas">Promedio</div><br>
+            </div>
+        </p>   
+    </div>
+    <p id="fin"></p><br>
+    <p><a href="index.html" class="btn btn-primary">VOLVER</a></p>
+    <p><img src="img/img4.jpg" class="d-block w-100" height="200px"></p>
+    
+
+<script type="text/javascript">
+	function alerta(){
+		var mensaje, final;
+		nombre = prompt("Ingrese nombre y apellido del estudiante: ");
+		var n1 = parseFloat(prompt("Ingrese nota 1"));
+		var n2 = parseFloat(prompt("Ingrese nota 2"));
+		var n3 = parseFloat(prompt("Ingrese nota 3"));
+		var n4 = parseFloat(prompt("Ingrese nota 4"));
+		var n5 = parseFloat(prompt("Ingrese nota 5"));
+		var n6 = parseFloat(prompt("Ingrese nota 6"));
+
+		var promedio = (n1+n2+n3+n4+n5+n6)/6;
+        var prom;
+        prom = promedio.toFixed(2);
+        final = "!REGISTRO COMPLETADO!"
+        
+		if (promedio >= 13){
+		resultado = "APROBADO" 
+		mensaje = "\nEl promedio final es: " +prom	
+		}else{
+		resultado ="DESAPROBADO";
+		mensaje = "El promedio final es: "+prom
+	     }
+	    document.getElementById('name').innerHTML = nombre;
+	    document.getElementById('result').innerHTML = resultado;
+	    document.getElementById('notas').innerHTML = mensaje;
+        document.getElementById('fin').innerHTML = final;
+	}
+        var $dif = $(".x");
+        $dif.hide();
+        $("#fin").hide();
+        $dif.slideDown(1300, function(){
+            $("#fin").fadeIn(fin)
+        })
+</script>
+</body>
+</html>

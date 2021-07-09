@@ -1,0 +1,48 @@
+body{
+    background: #b9d6d8;
+    font-family: sans-serif;
+}
+#nava{
+    background: snow;
+}
+
+h1{
+    font-family: monospace;
+}
+h4{
+    font-family: fantasy;
+    color: rgb(150, 47, 47);
+}
+#grados{
+    font-size: 1.5em;
+}
+.collapse{
+    font-size: 1.1em;
+}
+.izq{
+    position: absolute;
+    margin-left: 30px;
+    top: 100px;
+    height: 600px;
+}
+.izq2{
+    position: absolute;
+    margin-left: 1635px;
+    top: 740px;
+    width: 255px;
+}
+.der{
+    position: absolute;
+    margin-left: 1635px;
+    top: 100px;
+    height: 600px;
+}
+.der2{
+    position: absolute;
+    margin-left: 30px;
+    top: 740px;
+    width: 255px;
+}
+
+
+/* background-image: url("../img/times.jpg"); */
